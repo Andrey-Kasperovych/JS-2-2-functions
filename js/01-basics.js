@@ -6,11 +6,11 @@
  */
 
 // const add = function (x, y) {
-//   console.log(x);
-//   console.log(y);
-//   console.log('Выполянется функция add');
+//     console.log(x);
+//     console.log(y);
+//     console.log('Выполянется функция add');
 
-//   return x + y;
+//     return x + y;
 // };
 
 // const r1 = add(5, 3);
@@ -42,15 +42,15 @@
  * - Stack trace и поиск ошибок
  */
 const fnA = function () {
-  console.log('Выполняется функция A');
+    console.log('Выполняется функция A');
 };
 
 const fnB = function () {
-  console.log('Выполняется функция B');
+    console.log('Выполняется функция B');
 };
 
 const fnC = function () {
-  console.log('Выполняется функция C');
+    console.log('Выполняется функция C');
 };
 
 // console.log('Лог перед вызовом функции A');
