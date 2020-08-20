@@ -8,8 +8,8 @@ const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
 
 const findLogin = function (allLogins, login) {
     return logins.includes(login)
-        ? 'Пользователь [логин] найден.'
-        : 'Пользователь [логин] не найден.';
+        ? `Пользователь ${login} найден.`
+        : `Пользователь ${login} не найден.`;
 };
 
 console.log(findLogin(logins, 'avocod3r'));
